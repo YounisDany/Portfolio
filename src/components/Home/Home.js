@@ -7,23 +7,20 @@ import Type from "./Type";
 
 function Home() {
   return (
-    <head>
-    <title>يونس ضاعني </title>
-    </head>
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 translate="no" style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span translate="no" className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
-              <h1 className="heading-name">
+              <h1 translate="no" className="heading-name">
                 I'M
                 <strong translate="no" className="main-name"> Younis Dany</strong>
               </h1>
