@@ -5,7 +5,6 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import {Helmet} from "react-helmet";
 import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
@@ -33,10 +32,7 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-    <Helmet>
-        <title> يونس ضاعني مصمم مواقع ويب اليمن | Younis Dany </title>
-        <meta name="description" content="يونس ضاعني مصمم مواقع ويب  محترف تصاميم جرافيكس ,تطبيقات ,خدمة العملاء, بناء مشاريع ,تسويق الكتروني" />
-    </Helmet>
+  
         <Navbar />
         <ScrollToTop />
         <Routes>
