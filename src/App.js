@@ -32,6 +32,10 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
+    <Helmet>
+        <title> يونس ضاعني مصمم مواقع ويب اليمن | Younis Dany </title>
+        <meta name="description" content="يونس ضاعني مصمم مواقع ويب  محترف تصاميم جرافيكس ,تطبيقات ,خدمة العملاء, بناء مشاريع ,تسويق الكتروني" />
+    </Helmet>
         <Navbar />
         <ScrollToTop />
         <Routes>
