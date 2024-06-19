@@ -26,7 +26,7 @@ function Projects() {
               isBlog={false}
               title="Zaafoor Services"
               description="Website for Zaafoor Services company "
-              demoLink="http://zaafoor.com/"
+              demoLink="http://www.zaa-for-recruitment.ltd/"
             />
           </Col>
 
@@ -44,9 +44,9 @@ function Projects() {
             <ProjectCard
               imgPath={ozen}
               isBlog={false}
-              title="OZEN Store"
-              description="Ecommerce for ozen company "
-              demoLink="https://Ozen-ye.com/"              
+              title="مكتب محاماة"
+              description=" "
+              demoLink="http://lawyer-amani.vercel.app"              
             />
           </Col>
 
@@ -66,7 +66,7 @@ function Projects() {
               isBlog={false}
               title="Horizon"
               description="Ecommerce for ozen company "
-            demoLink="http://horizon-ye.com/n"   />
+            demoLink="http://horizon-ye.com/"   />
           </Col>
 
       
